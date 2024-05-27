@@ -1,0 +1,19 @@
+<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="169px" height="52px">
+<defs>
+<linearGradient id="PSgrad_0" x1="0%" x2="0%" y1="100%" y2="0%">
+  <stop offset="0%" stop-color="rgb(0,0,0)" stop-opacity="1" />
+  <stop offset="19%" stop-color="rgb(126,122,117)" stop-opacity="1" />
+  <stop offset="47%" stop-color="rgb(116,116,116)" stop-opacity="1" />
+  <stop offset="99%" stop-color="rgb(255,255,255)" stop-opacity="1" />
+</linearGradient>
+
+</defs>
+<text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" transform="matrix( 1.47056220577159, 0.09134920821154, -0.09137923257038, 1.47008532440285,137.301673664387, 23.1814425793074)" font-size="23.607px"><tspan font-size="23.607px" font-family="AJensonPro" fill="#DE7732">g</tspan></text>
+<text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" transform="matrix( -1.47056220577159, -0.09134920821154, 0.09137923257038, -1.47008532440285,165.899262782484, 8.27777531258013)" font-size="23.607px"><tspan font-size="23.607px" font-family="AJensonPro" fill="#DE7732">c</tspan></text>
+<text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" transform="matrix( 2.71134313856563, 0, 0, 2.71045808321626,35.9043541184228, 51.3852826295837)" font-size="3.151px"><tspan font-size="3.151px" font-family="Cinzel" font-weight="bold" fill="#D3D3D3">gaming&#32;community</tspan></text>
+<text kerning="auto" font-family="Myriad Pro" fill="url(#PSgrad_0)" transform="matrix( 2.71134313856563, 0, 0, 2.71045808321626,35.9043541184228, 51.3852826295837)" font-size="3.151px"><tspan font-size="3.151px" font-family="Cinzel" font-weight="bold" fill="#D3D3D3">gaming&#32;community</tspan></text>
+<text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" transform="matrix( 10.0392265991838, 0, 0, 10.0359495255154,28.2288053813903, 35.0539242882731)" font-size="4.135px"><tspan font-size="4.135px" font-family="CinzelDecorative" font-weight="bold" fill="#D3D3D3">R</tspan><tspan font-size="4.135px" font-family="CinzelDecorative" font-weight="bold" fill="#D3D3D3">Evo</tspan><tspan font-size="4.135px" font-family="CinzelDecorative" font-weight="bold" fill="#D3D3D3">l</tspan></text>
+</svg>
