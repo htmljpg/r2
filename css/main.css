@@ -6513,7 +6513,7 @@ button.swiper-pagination-bullet {
 .page-row--bg::before {
   content: "";
   height: 47px;
-  background: url("../img/page-row-bg.png") no-repeat top center;
+  background: url("../img/page-row-bg.webp") no-repeat top center;
   position: absolute;
   top: 0;
   -webkit-transform: translateY(-50%);
@@ -6659,13 +6659,13 @@ button.swiper-pagination-bullet {
     bottom: 2px;
   }
   .section-title-wrapper-center::before {
-    background-image: url("../img/section-header-title-left.png");
+    background-image: url("../img/section-header-title-left.webp");
     background-position: top right;
     right: calc(100% + 12px);
   }
   .section-title-wrapper-center::after,
   .section-title-wrapper-left::after {
-    background-image: url("../img/section-header-title-right.png");
+    background-image: url("../img/section-header-title-right.webp");
     background-position: top left;
     left: calc(100% + 12px);
   }
@@ -6728,7 +6728,7 @@ button.swiper-pagination-bullet {
   left: 9px;
   right: 9px;
   bottom: 9px;
-  border-image-source: url("../img/border-image.png");
+  border-image-source: url("../img/border-image.webp");
   border-image-slice: 63 62 57 62;
   border-image-repeat: stretch;
   border-style: inset;
@@ -6759,7 +6759,7 @@ button.swiper-pagination-bullet {
 }
 
 .border-image-2::before {
-  border-image-source: url("../img/border-image-2.png");
+  border-image-source: url("../img/border-image-2.webp");
   border-image-slice: 93 92 87 92;
   border-image-repeat: stretch;
   border-style: inset;
@@ -6771,7 +6771,7 @@ button.swiper-pagination-bullet {
 }
 
 .border-image-2::after {
-  background: url("../img/border-image-2-bg.png") no-repeat top center;
+  background: url("../img/border-image-2-bg.webp") no-repeat top center;
   max-width: 397px;
   width: 100%;
   left: 50%;
@@ -6924,7 +6924,7 @@ button.swiper-pagination-bullet {
 @media (min-width: 992px) {
   .news .news-item:first-child .btn {
     min-height: 54px;
-    background-image: url(../img/button/border/middle/btn-border-left-bg.png), url(../img/button/border/middle/btn-border-right-bg.png), url(../img/button/border/middle/btn-border-repeat-bg.png), url(../img/button/border/middle/btn-border-repeat-bg.png), url(../img/button/border/middle/btn-border-middle-bg.png);
+    background-image: url(../img/button/border/middle/btn-border-left-bg.webp), url(../img/button/border/middle/btn-border-right-bg.webp), url(../img/button/border/middle/btn-border-repeat-bg.webp), url(../img/button/border/middle/btn-border-repeat-bg.webp), url(../img/button/border/middle/btn-border-middle-bg.webp);
     background-position: left center, right center, left 43px center, right 43px center, right 50% center;
     background-size: auto 100%, auto 100%, calc(50% - 51px) 100%, calc(50% - 51px) 100%, auto 100%;
   }
@@ -6939,7 +6939,7 @@ button.swiper-pagination-bullet {
   position: absolute;
   left: 3px;
   top: 1.3333333333em;
-  background: url("../img/label-bg.png") no-repeat top left;
+  background: url("../img/label-bg.webp") no-repeat top left;
   height: 7.3333333333em;
   width: 5.3333333333em;
   -webkit-perspective: 1000px;
@@ -7561,7 +7561,7 @@ button.swiper-pagination-bullet {
 
 .map-box-point-text {
   height: 53px;
-  background: url(../img/map/point-info-left-1.png) left center no-repeat, url(../img/map/point-info-right-1.png) right center no-repeat, url(../img/map/point-info-middle-1.png) left 10px center no-repeat;
+  background: url(../img/map/point-info-left-1.webp) left center no-repeat, url(../img/map/point-info-right-1.webp) right center no-repeat, url(../img/map/point-info-middle-1.webp) left 10px center no-repeat;
   background-size: auto 100%, auto 100%, calc(100% - 20px) 100%;
   padding: 7px 20px 0px;
   text-align: center;
@@ -7603,7 +7603,7 @@ button.swiper-pagination-bullet {
   width: 34px;
   width: 34px;
   height: 34px;
-  background: url("../img/map/point_slot.png") center center no-repeat;
+  background: url("../img/map/point_slot.webp") center center no-repeat;
   background-size: 100% 100%;
   margin: 0 auto;
   position: relative;
@@ -7679,7 +7679,7 @@ button.swiper-pagination-bullet {
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  background: url("../img/map/point_info_left_bg.png") left center no-repeat, url("../img/map/point_info_right_bg.png") right center no-repeat, url("../img/map/point_info_middle_bg.png") left 10px center no-repeat;
+  background: url("../img/map/point_info_left_bg.webp") left center no-repeat, url("../img/map/point_info_right_bg.webp") right center no-repeat, url("../img/map/point_info_middle_bg.webp") left 10px center no-repeat;
   background-size: auto 100%, auto 100%, calc(100% - 20px) 100%;
   padding: 7px 20px 0px;
   text-align: center;
@@ -7935,7 +7935,7 @@ button.swiper-pagination-bullet {
 .menu-item::after {
   content: "";
   height: 1px;
-  background: url("../img/hr-border.png") no-repeat top center;
+  background: url("../img/hr-border.webp") no-repeat top center;
   display: block;
   position: absolute;
   left: 0;
@@ -7965,7 +7965,7 @@ button.swiper-pagination-bullet {
   min-width: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  background-image: url("../img/menu-nav-arrow.png");
+  background-image: url("../img/menu-nav-arrow.webp");
 }
 
 .menu-link::after {
@@ -8019,7 +8019,7 @@ button.swiper-pagination-bullet {
   width: 100%;
   left: 0;
   top: 0;
-  background: url(../img/shop/picture-bg.png) no-repeat top center;
+  background: url(../img/shop/picture-bg.webp) no-repeat top center;
   z-index: -1;
   pointer-events: none;
 }
@@ -8326,8 +8326,8 @@ button.swiper-pagination-bullet {
 }
 
 .wheel-result-wrapper {
-  background: url(../img/wheel/inner-bg.png) no-repeat top center, -webkit-gradient(linear, left top, left bottom, color-stop(30%, #5e5e5e), color-stop(50%, transparent), to(transparent));
-  background: url(../img/wheel/inner-bg.png) no-repeat top center, linear-gradient(to bottom, #5e5e5e 30%, transparent 50%, transparent);
+  background: url(../img/wheel/inner-bg.webp) no-repeat top center, -webkit-gradient(linear, left top, left bottom, color-stop(30%, #5e5e5e), color-stop(50%, transparent), to(transparent));
+  background: url(../img/wheel/inner-bg.webp) no-repeat top center, linear-gradient(to bottom, #5e5e5e 30%, transparent 50%, transparent);
   background-size: contain;
   z-index: 100;
   background-color: #14100b;
@@ -8509,7 +8509,7 @@ button.swiper-pagination-bullet {
 
 .wheel[data-item-count="4"] .wheel__sector {
   background: #3e3c3b;
-  -webkit-mask-box-image: url("../img/wheel/1_4.png");
+  -webkit-mask-box-image: url("../img/wheel/1_4.webp");
 }
 
 .wheel[data-item-count="4"] .wheel__sector:nth-child(1) {
@@ -8566,7 +8566,7 @@ button.swiper-pagination-bullet {
 
 .wheel[data-item-count="5"] .wheel__sector {
   background: #3e3c3b;
-  -webkit-mask-box-image: url("../img/wheel/1_5.png");
+  -webkit-mask-box-image: url("../img/wheel/1_5.webp");
 }
 
 .wheel[data-item-count="5"] .wheel__sector:nth-child(1) {
@@ -8636,7 +8636,7 @@ button.swiper-pagination-bullet {
 
 .wheel[data-item-count="6"] .wheel__sector {
   background: #3e3c3b;
-  -webkit-mask-box-image: url("../img/wheel/1_6.png");
+  -webkit-mask-box-image: url("../img/wheel/1_6.webp");
 }
 
 .wheel[data-item-count="6"] .wheel__sector:nth-child(1) {
@@ -8719,7 +8719,7 @@ button.swiper-pagination-bullet {
 
 .wheel[data-item-count="7"] .wheel__sector {
   background: #3e3c3b;
-  -webkit-mask-box-image: url("../img/wheel/1_7.png");
+  -webkit-mask-box-image: url("../img/wheel/1_7.webp");
 }
 
 .wheel[data-item-count="7"] .wheel__sector:nth-child(1) {
@@ -8815,7 +8815,7 @@ button.swiper-pagination-bullet {
 
 .wheel[data-item-count="8"] .wheel__sector {
   background: #3e3c3b;
-  -webkit-mask-box-image: url("../img/wheel/1_8.png");
+  -webkit-mask-box-image: url("../img/wheel/1_8.webp");
 }
 
 .wheel[data-item-count="8"] .wheel__sector:nth-child(1) {
@@ -8924,7 +8924,7 @@ button.swiper-pagination-bullet {
 
 .wheel[data-item-count="9"] .wheel__sector {
   background: #3e3c3b;
-  -webkit-mask-box-image: url("../img/wheel/1_9.png");
+  -webkit-mask-box-image: url("../img/wheel/1_9.webp");
 }
 
 .wheel[data-item-count="9"] .wheel__sector:nth-child(1) {
@@ -9046,7 +9046,7 @@ button.swiper-pagination-bullet {
 
 .wheel[data-item-count="10"] .wheel__sector {
   background: #3e3c3b;
-  -webkit-mask-box-image: url("../img/wheel/1_10.png");
+  -webkit-mask-box-image: url("../img/wheel/1_10.webp");
 }
 
 .wheel[data-item-count="10"] .wheel__sector:nth-child(1) {
@@ -9181,7 +9181,7 @@ button.swiper-pagination-bullet {
 
 .wheel[data-item-count="11"] .wheel__sector {
   background: #3e3c3b;
-  -webkit-mask-box-image: url("../img/wheel/1_11.png");
+  -webkit-mask-box-image: url("../img/wheel/1_11.webp");
 }
 
 .wheel[data-item-count="11"] .wheel__sector:nth-child(1) {
@@ -9329,7 +9329,7 @@ button.swiper-pagination-bullet {
 
 .wheel[data-item-count="12"] .wheel__sector {
   background: #373532 !important;
-  -webkit-mask-box-image: url("../img/wheel/1_12.png");
+  -webkit-mask-box-image: url("../img/wheel/1_12.webp");
 }
 
 .wheel[data-item-count="12"] .wheel__sector:nth-child(odd) {
@@ -9799,7 +9799,7 @@ button.swiper-pagination-bullet {
   display: block;
   height: 44px;
   width: 45px;
-  background: transparent url(../img/carousel/dot.png) no-repeat center;
+  background: transparent url(../img/carousel/dot.webp) no-repeat center;
 }
 .dots > span::after {
   content: "";
@@ -9810,7 +9810,7 @@ button.swiper-pagination-bullet {
   left: -22px;
   right: -22px;
   z-index: 1;
-  background: transparent url(../img/carousel/dot-active.png) no-repeat center;
+  background: transparent url(../img/carousel/dot-active.webp) no-repeat center;
   opacity: 0;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -9843,7 +9843,7 @@ button.swiper-pagination-bullet {
   position: relative;
   white-space: nowrap;
   z-index: 1;
-  background: url(../img/button/border/large/btn-border-left-bg.png) left center no-repeat, url(../img/button/border/large/btn-border-right-bg.png) right center no-repeat, url(../img/button/border/large/btn-border-repeat-bg.png) left 46px center no-repeat, url(../img/button/border/large/btn-border-repeat-bg.png) right 46px center no-repeat, url(../img/button/border/large/btn-border-middle-bg.png) right 50% center no-repeat;
+  background: url(../img/button/border/large/btn-border-left-bg.webp) left center no-repeat, url(../img/button/border/large/btn-border-right-bg.webp) right center no-repeat, url(../img/button/border/large/btn-border-repeat-bg.webp) left 46px center no-repeat, url(../img/button/border/large/btn-border-repeat-bg.webp) right 46px center no-repeat, url(../img/button/border/large/btn-border-middle-bg.webp) right 50% center no-repeat;
   background-size: auto 100%, auto 100%, calc(50% - 52px) 100%, calc(50% - 52px) 100%, auto 100%;
   cursor: pointer;
   -webkit-perspective: 1000px;
@@ -9901,7 +9901,7 @@ button.swiper-pagination-bullet {
   background-color: #232323;
 }
 .btn--primary-bg::after {
-  background-image: url(../img/button/button-background.png);
+  background-image: url(../img/button/button-background.webp);
 }
 .btn:hover::after, .btn--tertiary:hover, .btn--start:hover {
   -webkit-filter: brightness(130%);
@@ -9918,7 +9918,7 @@ button.swiper-pagination-bullet {
   background-size: auto 100%, auto 100%, calc(50% - 44px) 100%, calc(50% - 44px) 100%, auto 100%;
 }
 .btn.mnh-42 {
-  background: url(../img/button/border/small/btn-border-left-bg.png) left center no-repeat, url(../img/button/border/small/btn-border-right-bg.png) right center no-repeat, url(../img/button/border/small/btn-border-repeat-bg.png) left 32px center no-repeat, url(../img/button/border/small/btn-border-repeat-bg.png) right 32px center no-repeat, url(../img/button/border/small/btn-border-middle-bg.png) right 50% center no-repeat;
+  background: url(../img/button/border/small/btn-border-left-bg.webp) left center no-repeat, url(../img/button/border/small/btn-border-right-bg.webp) right center no-repeat, url(../img/button/border/small/btn-border-repeat-bg.webp) left 32px center no-repeat, url(../img/button/border/small/btn-border-repeat-bg.webp) right 32px center no-repeat, url(../img/button/border/small/btn-border-middle-bg.webp) right 50% center no-repeat;
   background-size: auto 100%, auto 100%, calc(50% - 37px) 100%, calc(50% - 37px) 100%, auto 100%;
 }
 .btn.mnh-42::before {
@@ -9943,7 +9943,7 @@ button.swiper-pagination-bullet {
   clip-path: polygon(0% 0%, calc(100% - 33px) 0%, 100% 50%, calc(100% - 33px) 100%, 100% 100%, 100% 100%, 33px 100%, 0% 50%, 33px 0%);
 }
 .btn--2 {
-  background: url(../img/button/border-button-big-left-2.png) left center no-repeat, url(../img/button/border-button-big-right-2.png) right center no-repeat, url(../img/button/border-button-big-middle-2.png) left 46px center no-repeat, url(../img/button/border-button-big-middle-2.png) right 46px center no-repeat, url(../img/button/border-button-big-center-2.png) right 50% center no-repeat;
+  background: url(../img/button/border-button-big-left-2.webp) left center no-repeat, url(../img/button/border-button-big-right-2.webp) right center no-repeat, url(../img/button/border-button-big-middle-2.webp) left 46px center no-repeat, url(../img/button/border-button-big-middle-2.webp) right 46px center no-repeat, url(../img/button/border-button-big-center-2.webp) right 50% center no-repeat;
 }
 .btn--2.mnh-69 {
   background-position: left center, right center, left 41px center, right 42px center, right 50% center;

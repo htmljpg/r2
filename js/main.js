@@ -542,27 +542,27 @@ const WheelPage = () => {
       "id": 1,
       "chance": 10,
       "name": "Imperial Crusader Shield 1",
-      "icon": "assets/images/icons/1.png"
+      "icon": "assets/images/icons/1.webp"
     }, {
       "id": 2,
       "chance": 10,
       "name": "Imperial Crusader Shield 2",
-      "icon": "assets/images/icons/2.png"
+      "icon": "assets/images/icons/2.webp"
     }, {
       "id": 3,
       "chance": 10,
       "name": "Imperial Crusader Shield 3",
-      "icon": "assets/images/icons/3.png"
+      "icon": "assets/images/icons/3.webp"
     }, {
       "id": 4,
       "chance": 10,
       "name": "Imperial Crusader Shield 4",
-      "icon": "assets/images/icons/4.png"
+      "icon": "assets/images/icons/4.webp"
     }, {
       "id": 5,
       "chance": 10,
       "name": "Imperial Crusader Shield 5",
-      "icon": "assets/images/icons/5.png"
+      "icon": "assets/images/icons/5.webp"
     }]
   };
   let count = 5;
