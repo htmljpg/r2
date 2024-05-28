@@ -180,7 +180,7 @@ const EventsPage = () => {
     centeredSlides: true,
     loop: false,
     simulateTouch: false,
-    slideToClickedSlide: true,
+    slideToClickedSlide: false,
     navigation: {
       nextEl: '#eventsDateNext',
       prevEl: '#eventsDatePrev'
@@ -192,7 +192,15 @@ const EventsPage = () => {
     thumbs: {
       swiper: eventsDate
     },
-    on: {},
+    on: {
+      afterInit: swiper => {
+        swiper.thumbs.swiper.params.slideToClickedSlide = true;
+        swiper.thumbs.swiper.update();
+      },
+      realIndexChange: swiper => {
+        swiper.thumbs.swiper.slideToLoop(swiper.realIndex);
+      }
+    },
     breakpoints: {
       0: {
         allowTouchMove: false
@@ -201,7 +209,7 @@ const EventsPage = () => {
         allowTouchMove: false
       },
       992: {
-        allowTouchMove: true
+        allowTouchMove: false
       }
     }
   });

@@ -8044,16 +8044,16 @@ button.swiper-pagination-bullet {
   z-index: 1;
 }
 
-@media (min-width: 1400px) {
-  .events-date .swiper-slide-active + .swiper-slide + .swiper-slide {
-    -webkit-mask-image: linear-gradient(80deg, #000 10%, transparent 77%, transparent 100%);
-    mask-image: linear-gradient(80deg, #000 10%, transparent 77%, transparent 100%);
-  }
-  .events-date .swiper-slide:not(.swiper-slide-prev, .swiper-slide-active, .swiper-slide-next) {
-    -webkit-mask-image: linear-gradient(-80deg, #000 10%, transparent 77%, transparent 100%);
-    mask-image: linear-gradient(-80deg, #000 10%, transparent 77%, transparent 100%);
-  }
+.events-date .swiper-slide-active + .swiper-slide + .swiper-slide {
+  -webkit-mask-image: linear-gradient(80deg, #000 10%, transparent 77%, transparent 100%);
+  mask-image: linear-gradient(80deg, #000 10%, transparent 77%, transparent 100%);
 }
+
+.events-date .swiper-slide:not(.swiper-slide-prev, .swiper-slide-active, .swiper-slide-next) {
+  -webkit-mask-image: linear-gradient(-80deg, #000 10%, transparent 77%, transparent 100%);
+  mask-image: linear-gradient(-80deg, #000 10%, transparent 77%, transparent 100%);
+}
+
 .events-date-wrapper {
   max-width: 450px;
   margin-left: auto;
@@ -55166,7 +55166,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
   margin: 0;
 }
 .spoiler [data-js-toggle-block] > div {
-  padding: 16px 14px;
+  padding: 14px;
 }
 
 @media (max-width: 991px) {
