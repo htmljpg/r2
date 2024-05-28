@@ -55048,9 +55048,9 @@ h1, h2, h3, h4, h5, h6, p, ul {
   display: -ms-flexbox;
   display: flex;
   gap: 14px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
 }
 .list-3 li span:first-child {
   -ms-flex-negative: 0;
@@ -55058,6 +55058,9 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 .list-3 li span:first-child img {
   max-width: 26px;
+}
+.list-3 li span:last-child {
+  padding-top: 3px;
 }
 .list-3 li + li {
   margin-top: 8px;
@@ -55163,7 +55166,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
   margin: 0;
 }
 .spoiler [data-js-toggle-block] > div {
-  padding: 16px 14px 30px;
+  padding: 16px 14px;
 }
 
 @media (max-width: 991px) {
@@ -55212,6 +55215,9 @@ h1, h2, h3, h4, h5, h6, p, ul {
     font-size: 14px;
     padding-top: 12px;
     padding-bottom: 12px;
+  }
+  .list-3 li span:last-child {
+    padding-top: 6px;
   }
 }
 /*# sourceMappingURL=main.css.map */
