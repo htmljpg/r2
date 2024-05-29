@@ -52377,6 +52377,10 @@ h1, h2, h3, h4, h5, h6, p, ul {
   background-color: rgba(255, 255, 255, 0.03);
 }
 
+.bg-clr-secondary-2, .bg-clr-secondary-2-h:hover {
+  background-color: var(--color-secondary-2);
+}
+
 .bg-clr-dark, .bg-clr-dark-h:hover {
   background-color: var(--color-dark);
 }
