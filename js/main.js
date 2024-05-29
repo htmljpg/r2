@@ -140,7 +140,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const EventsPage = () => {
-  console.log('123');
   swiper__WEBPACK_IMPORTED_MODULE_0__["default"].use([swiper__WEBPACK_IMPORTED_MODULE_0__.Pagination, swiper__WEBPACK_IMPORTED_MODULE_0__.Thumbs, swiper__WEBPACK_IMPORTED_MODULE_0__.EffectFade, swiper__WEBPACK_IMPORTED_MODULE_0__.Navigation, swiper__WEBPACK_IMPORTED_MODULE_0__.Controller]);
   const eventsDate = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"]('#eventsDate', {
     slidesPerView: 'auto',
@@ -587,9 +586,7 @@ const WheelPage = () => {
       wheel_controller.update(update_data);
       wheelNum.textContent = count;
     };
-  } else {
-    console.log('stop');
-  }
+  } else {}
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (WheelPage);
 
@@ -4073,7 +4070,6 @@ function Tabs(options) {
   this.tabElement = document.getElementById(`${this.tabSelectorById}`);
   this.tabButtonItems = this.tabElement && this.tabElement.querySelectorAll(`[data-js-tab-button="${tabSelectorById}"]`);
   this.tabContentItems = this.tabElement && this.tabElement.querySelectorAll(`[data-js-tab-content-item="${tabSelectorById}"]`);
-  console.log(this.tabSelectorById);
   this.hideTabContent = () => {
     this.tabContentItems.forEach(item => {
       item.classList.add('d-none');
@@ -4478,9 +4474,7 @@ const overflowHidden = options => {
     element = null
   } = options || {};
   let block = element || document.body;
-  if (block && block.tagName.toLowerCase() === 'body') {
-    console.log('block', block);
-  }
+  if (block && block.tagName.toLowerCase() === 'body') {}
   block.style.overflow = 'hidden';
   block.style.marginRight = getScrollbarWidth() + 'px';
   document.querySelectorAll('[data-js-body-overflow-x-indent]').forEach(item => item.style.paddingRight = getScrollbarWidth() + 'px');
@@ -4553,7 +4547,7 @@ const toggle = () => {
           });
 
           // block.slideDown();
-          console.log('$', (jquery__WEBPACK_IMPORTED_MODULE_1___default()));
+
           jquery__WEBPACK_IMPORTED_MODULE_1___default()(block).slideDown();
           _this.classList.add('active');
           block.classList.add('active');
@@ -28061,7 +28055,6 @@ __webpack_require__.r(__webpack_exports__);
 
 document.addEventListener('DOMContentLoaded', () => {
   var links = document.getElementsByClassName('scroll-link');
-  console.log('links', links);
   for (var i = 0; i < links.length; i++) {
     links[i].onclick = scroll;
   }
@@ -28095,7 +28088,6 @@ document.addEventListener('DOMContentLoaded', () => {
       const locationSplitArray = window.location.pathname.split('/');
       const last = locationSplitArray[locationSplitArray.length - 1];
       const pagePathname = last && last.replace('.html', '');
-      console.log('pagePathname', pagePathname);
       pages && pages.length && pages.forEach(page => {
         callbacks && callbacks.length && callbacks.forEach(callback => {
           page === `/${pagePathname}` && callback(), page === '*' && callback();
